@@ -1,0 +1,25 @@
+# Virtual Environment
+eurosat_env/
+
+# Dataset (too large for GitHub)
+data/
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Model weights (optional - comment out if you want to push .pth files)
+# weights/
