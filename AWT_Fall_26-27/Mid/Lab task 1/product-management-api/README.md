@@ -8,7 +8,7 @@ NestJS REST API for a shop's products and employees. Both modules use TypeORM re
 | ---------- | ------------------------- |
 | Name       | Anik                      |
 | Student ID | 22-42028-2                |
-| SL         | Not provided              |
+| SL         | 3                         |
 | Section    | D                         |
 | Course     | Advanced Web Technologies |
 | Semester   | Fall 2026-2027            |
