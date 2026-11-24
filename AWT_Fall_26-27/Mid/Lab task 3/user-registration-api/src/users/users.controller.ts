@@ -3,9 +3,6 @@ import { CreateUserDto } from './dto/create-user.dto';
 
 @Controller('users')
 export class UsersController {
-  // POST /users/register
-  // By the time we get here the ValidationPipe has already checked the
-  // body against CreateUserDto, so we can trust the data is clean.
   @Post('register')
   register(@Body() dto: CreateUserDto) {
     return {

@@ -5,10 +5,6 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // One pipe guards every endpoint:
-  //  - whitelist: drop any field we didn't ask for
-  //  - forbidNonWhitelisted: reject the request if it has extra fields
-  //  - transform: turn the plain body into a real CreateUserDto instance
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
